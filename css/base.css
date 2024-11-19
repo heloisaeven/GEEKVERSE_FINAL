@@ -62,34 +62,34 @@ header .container {
 }
 
 .navbar {
-    background-color: #9B48D7; /* Cor de fundo roxa */
-    padding: 10px 0; /* Espaçamento superior e inferior */
+    background-color: #9B48D7;
+    padding: 10px 0; 
     text-align: center;
 }
 
 .navbar ul {
-    list-style: none; /* Remove os marcadores da lista */
+    list-style: none; 
     margin: 0;
     padding: 0;
-    display: inline-flex; /* Alinha os itens horizontalmente */
-    gap: 20px; /* Espaçamento entre os links */
+    display: inline-flex;
+    gap: 20px; 
 }
 
 .navbar ul li {
-    display: inline; /* Garante alinhamento horizontal */
+    display: inline;
 }
 
 .navbar ul li a {
-    text-decoration: none; /* Remove o sublinhado */
+    text-decoration: none;
     font-family: montserrat;
-    font-size: 16px; /* Tamanho do texto */
-    font-weight: bold; /* Texto em negrito */
-    color: #FFFFFF; /* Cor branca do texto */
-    transition: color 0.3s ease; /* Transição suave para hover */
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF; 
+    transition: color 0.3s ease; 
 }
 
 .navbar ul li a:hover {
-    color: #FFD700; /* Cor dourada ao passar o mouse */
+    color: #FFD700; 
 }
 
 .search-form {
@@ -144,25 +144,23 @@ header .container {
 }
 
 .image-section img {
-    width: 50%; /* Assegura que cada imagem ocupe metade da largura da seção */
-    height: auto; /* Mantém a proporção da imagem */
-    object-fit: cover; /* Garante que a imagem preencha o espaço */
+    width: 50%; 
+    height: auto;
+    object-fit: cover; 
 }
 
-/* Configuração geral */
 .apresentation {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* Aumenta o espaçamento entre os balões */
-    padding: 40px; /* Aumenta o espaço ao redor dos balões */
-    background-image: url(../assets/tijolos.png); /* Caminho para a imagem de tijolos */
-    background-size: cover; /* Ajusta o fundo para cobrir toda a área */
-    background-position: center; /* Centraliza o fundo */
+    gap: 20px; 
+    padding: 40px;
+    background-image: url(../assets/tijolos.png);
+    background-size: cover; 
+    background-position: center; 
     font-family: Arial, sans-serif;
 }
 
-/* Estilo para cada balão de mensagem */
 .message {
     position: relative;
     max-width: 800px;
@@ -174,7 +172,6 @@ header .container {
     text-align: left;
 }
 
-/* Balão amarelo */
 .message-yellow {
     background-color: #ffd700;
     font-weight: bold;
@@ -184,20 +181,17 @@ header .container {
     margin-top: 20px;
 }
 
-/* Balão roxo */
 .message-purple {
     background-color: #c18eff;
     margin-left: 20%;
     margin-bottom: 20px;
 }
 
-/* Ajustes de alinhamento e espaço */
 .message-yellow, .message-purple {
     width: fit-content;
     align-self: flex-start;
 }
 
-/* Pontinha para o balão amarelo */
 .message-yellow::before {
     content: "";
     position: absolute;
@@ -210,7 +204,6 @@ header .container {
     border-right: 10px solid #ffd700;
 }
 
-/* Pontinha para o balão roxo */
 .message-purple::before {
     content: "";
     position: absolute;
@@ -224,31 +217,31 @@ header .container {
 }
 
 .promo-container {
-    background-color: #9B48D7; /* Fundo roxo */
-    color: #FFFFFF; /* Texto branco */
-    padding: 10px 10px; /* Espaçamento superior e inferior */
-    text-align: justify; /* Justifica o texto para ocupar toda a largura */
+    background-color: #9B48D7;
+    color: #FFFFFF; 
+    padding: 10px 10px;
+    text-align: justify; 
     font-family: Montserrat, sans-serif;
     font-size: 16px;
     font-weight: bold;
 }
 
 .promo-container p {
-    margin: 0; /* Remove margens do parágrafo */
-    display: inline; /* Mantém o texto em uma única linha */
-    white-space: nowrap; /* Impede quebras de linha */
+    margin: 0; 
+    display: inline; 
+    white-space: nowrap; 
 }
 
 .promo-container span {
-    color: #FFD700; /* Cor dourada dos separadores */
-    font-weight: 1000; /* Peso maior para separadores */
+    color: #FFD700; 
+    font-weight: 1000; 
 }
 
 .motivation {
     text-align: center;
     padding: 20px;
-    width: 100%; /* Ocupa toda a largura da tela */
-    box-sizing: border-box; /* Padding não afeta a largura total */
+    width: 100%; 
+    box-sizing: border-box; 
 }
 
 .motivation h1 {
@@ -258,34 +251,30 @@ header .container {
     margin-bottom: 20px;
 }
 
-/* Contêiner geral das seções */
 .section-container {
-    max-width: 900px; /* Largura máxima para o conteúdo */
-    margin: 0 auto; /* Centraliza o contêiner */
-    padding: 0 20px; /* Adiciona algum espaçamento lateral */
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
 }
 
-/* Seções com layout flexível */
 .section {
     display: flex;
-    align-items: center; /* Alinha verticalmente os itens */
-    justify-content: center; /* Alinha horizontalmente o conteúdo ao centro */
+    align-items: center; 
+    justify-content: center; 
     padding: 20px;
-    background-color: #4B0082; /* Fundo roxo */
-    color: #FFFFFF; /* Texto branco */
+    background-color: #4B0082; 
+    color: #FFFFFF; 
     border-radius: 10px;
     margin-bottom: 20px;
     gap: 20px;
     font-family: montserrat;
-    box-sizing: border-box; /* Para garantir que o padding não afete o layout */
+    box-sizing: border-box; 
 }
 
-/* Alinhar a segunda seção à direita */
 .section:nth-of-type(2) {
-    justify-content: flex-end; /* Alinha a segunda seção à direita */
+    justify-content: flex-end; 
 }
 
-/* Ajuste responsivo para o texto */
 .section p {
     flex: 1;
     font-size: 16px;
@@ -294,14 +283,12 @@ header .container {
     text-align: justify;
 }
 
-/* Estilo das imagens */
 .section img {
     max-width: 100px;
     flex-shrink: 0;
     display: block;
 }
 
-/* Estilo do texto final */
 .motivation p:last-child {
     background-color: #FFFFFF;
     color: #333333;
